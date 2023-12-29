@@ -11,10 +11,10 @@ export const DarkMode = () => {
       (!("theme" in localStorage) &&
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
-      setTheme("dark")
+      setTheme("dark");
       document.documentElement.classList.add("dark");
     } else {
-      setTheme("light")
+      setTheme("light");
       document.documentElement.classList.remove("dark");
     }
   }, []);
