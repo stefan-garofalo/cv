@@ -4,10 +4,11 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { DarkMode } from "@/components/dark-mode";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+      <section className="mx-auto w-full max-w-2xl space-y-8 print:space-y-6">
         <div className="flex items-center justify-between gap-5">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -47,7 +48,7 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              
+
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -68,14 +69,15 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              
             </div>
           </div>
-
+          <div className="flex items-end gap-4">
+          <DarkMode/>
           <Avatar className="h-28 w-28">
             <AvatarImage alt={RESUME_DATA.name} src="/avatar.jpeg" />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
+          </div>
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>

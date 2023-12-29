@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Passionate and curious developer eager to discover something new everyday",
   summary:
-    "I love shipping performant and clean software using the latest tech. I have a year of experience building and maintaining applications",
+    "I am an enthusiast driven by a relentless passion for discovering. With a keen eye for detail, I strive to develop clean and performant solutions. My journey in the world of development spans over a year, during which I have successfully built and shipped applications that reflect such principles",
 
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {

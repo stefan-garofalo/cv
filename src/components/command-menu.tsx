@@ -35,7 +35,7 @@ export const CommandMenu = ({ links }: Props) => {
     <>
       <button
         onClick={() => setOpen((open) => !open)}
-        className="fixed bottom-0 left-0 right-0 border-t border-t-muted bg-white p-2 text-center text-sm text-muted-foreground print:hidden"
+        className="fixed bottom-0 left-0 right-0 border-t border-t-muted bg-white dark:bg-black p-2 text-center text-sm text-muted-foreground print:hidden"
       >
         <span className="hidden lg:inline">
           Press{" "}
