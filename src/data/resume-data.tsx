@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Developed tens of multipage fullstack applications implementing Responsive Design, Auth, Data fetching, 3rd party APIs and Store architecture. I also maintained existing projects deploying new features and fixing bugs. Tech stack: Next.js/Nuxt 2, Tailwind, Firebase, MongoDB, Headless WP. Started as intern and hired after 6 months. ",
+        "Developed tens of multipage fullstack applications implementing Responsive Design, Auth, Data fetching, 3rd party APIs and Store architecture. I also maintained existing projects deploying new features and fixing bugs.",
     },
   ],
   skills: [
