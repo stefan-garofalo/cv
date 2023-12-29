@@ -24,7 +24,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               <a
                 href={link}
                 target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
+                className="inline-flex items-center gap-2 hover:underline"
               >
                 {title}{" "}
                 <span className="h-1 w-1 rounded-full bg-green-500"></span>
