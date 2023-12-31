@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Genova's Museums Catalogue",
+      title: "Genoa's Museums Catalogue",
       techStack: ["Nuxt", "MongoDB", "TailwindCSS", "WP Headless"],
       description:
         "A platform to consult and explore the entire heritage of Genoa's Civic Museums",
