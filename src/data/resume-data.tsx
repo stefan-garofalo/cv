@@ -9,8 +9,7 @@ export const RESUME_DATA = {
   about:
     "Passionate and curious developer eager to discover something new everyday",
   summary:
-    "Crafted numerous full-stack applications delivering high-quality code and showing self-reliance. Took care of maintaining existing products, fixing bugs, implementing new features and refactoring old codebases. Handled significant responsibility for most of the development of many projects.",
-
+    "I am an enthusiast driven by a relentless passion for discovering. With a keen eye for detail, I strive to develop clean and performant solutions. My journey in the world of development spans over a year, during which I have successfully built and shipped applications that reflect such principles",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "garofalo.s@outllok.com",
@@ -49,7 +48,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Developed tens of multipage fullstack applications implementing Responsive Design, Auth, Data fetching, 3rd party APIs and Store architecture. I also maintained existing projects deploying new features and fixing bugs.",
+            "Crafted numerous full-stack applications delivering high-quality code and showing self-reliance. Took care of maintaining existing products, fixing bugs, implementing new features and refactoring old codebases. Handled significant responsibility for most of the development of many projects.",
     },
   ],
   skills: [
