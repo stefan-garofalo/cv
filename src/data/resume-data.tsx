@@ -34,7 +34,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "ITTS Carlo Grassi",
-      degree: "IT Specialist - Secondary School Diploma",
+      degree: "IT Engineer - Senior High School Diploma",
       start: "2017",
       end: "2022",
     },
