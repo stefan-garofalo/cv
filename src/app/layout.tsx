@@ -1,4 +1,5 @@
 import { Toaster } from "sonner";
+import JotaiProvider from "@/components/providers/Jotai";
 
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
@@ -28,7 +29,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.className} dark transition-colors duration-500`}
     >
-      <body>{children}</body>
+      <JotaiProvider>
+        <body>{children}</body>
+      </JotaiProvider>
       <Toaster
         className="toaster group"
         position="top-center"
