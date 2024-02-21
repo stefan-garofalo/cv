@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "I am an enthusiast driven by a relentless passion for learning. With a keen eye for detail, I commit to develop clean and performant solutions. My journey in the world of development spans over a year, during which I have successfully built and shipped applications that reflect such principles",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "garofalo.s@outllok.com",
+    email: "garofalo.s@outlook.com",
     social: [
       {
         name: "GitHub",
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-            "Crafted numerous full-stack applications delivering high-quality code and showing self-reliance. Took care of maintaining existing products, fixing bugs, implementing new features and refactoring old codebases. Handled significant responsibility for most of the development of many projects.",
+        "Crafted numerous full-stack applications delivering high-quality code and showing self-reliance. Took care of maintaining existing products, fixing bugs, implementing new features and refactoring old codebases. Handled significant responsibility for most of the development of many projects.",
     },
   ],
   skills: [

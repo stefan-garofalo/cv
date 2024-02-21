@@ -4,11 +4,12 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon } from "lucide-react";
+import { GlobeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { DarkMode } from "@/components/dark-mode";
+import EmailButton from "@/components/email-button";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -37,16 +38,7 @@ export default function Page() {
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
               {RESUME_DATA.contact.email ? (
-                <Button
-                  className="h-8 w-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                    <MailIcon className="h-4 w-4" />
-                  </a>
-                </Button>
+                <EmailButton email={RESUME_DATA.contact.email} />
               ) : null}
 
               {RESUME_DATA.contact.social.map((social) => (
@@ -72,11 +64,11 @@ export default function Page() {
             </div>
           </div>
           <div className="flex items-end gap-4">
-          <DarkMode/>
-          <Avatar className="h-28 w-28">
-            <AvatarImage alt={RESUME_DATA.name} src="/avatar.jpeg" />
-            <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+            <DarkMode />
+            <Avatar className="h-28 w-28">
+              <AvatarImage alt={RESUME_DATA.name} src="/avatar.jpeg" />
+              <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
+            </Avatar>
           </div>
         </div>
         <Section>

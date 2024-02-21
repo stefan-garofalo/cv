@@ -1,10 +1,11 @@
+import { Toaster } from "sonner";
+
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
 import React from "react";
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,8 +24,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.className} dark transition-colors duration-500`}>
+    <html
+      lang="en"
+      className={`${inter.className} dark transition-colors duration-500`}
+    >
       <body>{children}</body>
+      <Toaster
+        position="bottom-center"
+        toastOptions={{
+          classNames: {
+            toast:
+              "group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg",
+            description: "group-[.toast]:text-muted-foreground",
+            actionButton:
+              "group-[.toast]:bg-primary group-[.toast]:text-primary-foreground",
+            cancelButton:
+              "group-[.toast]:bg-muted group-[.toast]:text-muted-foreground",
+          },
+        }}
+      />
       <Analytics />
     </html>
   );
