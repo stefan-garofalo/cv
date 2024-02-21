@@ -30,7 +30,8 @@ export default function RootLayout({
     >
       <body>{children}</body>
       <Toaster
-        position="bottom-center"
+        className="toaster group"
+        position="top-center"
         toastOptions={{
           classNames: {
             toast:
