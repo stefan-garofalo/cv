@@ -8,7 +8,6 @@ import { Badge } from "@/components/ui/badge";
 
 export default function SectionSkills({ data }) {
   const [skills, setSkills] = useAtom(skillsAtom);
-  console.log(skills);
   return (
     <Section>
       <h2 className="text-xl font-bold">Skills</h2>
