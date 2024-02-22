@@ -21,6 +21,7 @@ export default function SectionProjects({ data }) {
       <AnimatePresence mode="wait" initial={false}>
         {projects.length > 0 ? (
           <motion.ul
+            layout
             key={currentSkills.length}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -39,7 +40,9 @@ export default function SectionProjects({ data }) {
             ))}
           </motion.ul>
         ) : (
-          <div>No projects match the selected skills</div>
+          <div className="h-28 lg:h-48">
+            No projects match the selected skills
+          </div>
         )}
       </AnimatePresence>
     </Section>
