@@ -72,6 +72,7 @@ export const RESUME_DATA = {
         label: "radiantinc.vercel.app",
         href: "https://radiantinc.vercel.app",
       },
+      repositoryUrl: "https://github.com/stefan-garofalo/radiant-inc-website",
     },
     {
       title: "Genoa's Museums Catalogue",
