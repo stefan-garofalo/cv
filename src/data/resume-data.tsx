@@ -53,17 +53,35 @@ export const RESUME_DATA = {
   ],
   skills: [
     "JavaScript",
-    "React/Next.js",
-    "Vue.js/Nuxt",
-    "Node.js",
+    "Next.js",
+    "Nuxt",
+    "TailwindCSS",
     "MongoDB",
     "MySQL",
-    "TailwindCSS",
+    "Node.js",
+    "Prismic",
+    "WP Headless",
   ],
   projects: [
     {
+      title: "Radiant Inc. Website",
+      techStack: ["Next.js", "TailwindCSS", "JavaScript", "Prismic"],
+      description:
+        "The corporate website for a fictional energy provider company, based on nuclear and green solutions",
+      link: {
+        label: "radiantinc.vercel.app",
+        href: "https://radiantinc.vercel.app",
+      },
+    },
+    {
       title: "Genoa's Museums Catalogue",
-      techStack: ["Nuxt", "MongoDB", "TailwindCSS", "WP Headless"],
+      techStack: [
+        "Nuxt",
+        "MongoDB",
+        "TailwindCSS",
+        "JavaScript",
+        "WP Headless",
+      ],
       description:
         "A platform to consult and explore the entire heritage of Genoa's Civic Museums",
       link: {
@@ -73,7 +91,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Cassero Documentation Center",
-      techStack: ["Nuxt", "MongoDB", "TailwindCSS", "WP Headless"],
+      techStack: [
+        "Nuxt",
+        "MongoDB",
+        "TailwindCSS",
+        "JavaScript",
+        "WP Headless",
+      ],
       description:
         "A website to display the archive and documents held by the Cassero LGBT association based in Bologna",
       link: {
