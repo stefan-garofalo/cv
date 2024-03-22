@@ -64,6 +64,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Archivio Gianni Minà",
+      techStack: ["Next.js", "TailwindCSS", "JavaScript", "WP Headless"],
+      description:
+        "The archival website of the iconic personality Gianni Minà, one amongst the most influencial reporters and journalists of Italy and the 20th century ",
+      link: {
+        label: "giannimina.it",
+        href: "https://giannimina.it",
+      },
+    },
+    {
       title: "Radiant Inc. Website",
       techStack: ["Next.js", "TailwindCSS", "JavaScript", "Prismic"],
       description:
