@@ -7,9 +7,9 @@ export const RESUME_DATA = {
   location: "Turin, Italy",
   locationLink: "https://www.google.com/maps/place/Turin",
   about:
-    "Passionate and curious developer eager to discover something new everyday",
+    "An enthusiast and curious developer eager to discover something new everyday",
   summary:
-    "I am an enthusiast driven by a relentless passion for learning. With a keen eye for detail, I commit to develop clean and performant solutions. My journey in the world of development spans over two years, during which I have successfully built and shipped applications that reflect such principles",
+    "I am passionate and dedicated with over two years of experience in building and shipping high-quality applications. I have a meticulous eye for detail and a commitment to crafting clean, efficient, and performant solutions. I always try to keep up with the latest breakthroughs. I embrace innovation",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "garofalo.s@outlook.com",
