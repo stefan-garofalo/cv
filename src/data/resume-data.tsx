@@ -41,7 +41,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Promemoria S.r.l.",
+      company: "Promemoria Group",
       link: "https://www.promemoriagroup.com/en",
       badges: ["On-site"],
       title: "Frontend Developer",
