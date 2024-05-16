@@ -9,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "An enthusiast and curious developer eager to discover something new everyday",
   summary:
-    "I am a passionate and dedicated frontend developer with over two years of experience in building and shipping high-quality applications. I have a meticulous eye for detail. I commit to crafting clean, efficient, and performant solutions. I embrace innovation and always strive to keep up with the latest breakthroughs",
+    "I am a passionate and dedicated frontend developer with over two years of experience in building and shipping high-quality applications. I have a meticulous eye for detail and commit to crafting clean, efficient, and performant solutions. I embrace innovation and always strive to keep up with the latest breakthroughs.",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "garofalo.s@outlook.com",
