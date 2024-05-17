@@ -99,22 +99,6 @@ export const RESUME_DATA = {
         label: "catalogo.museidigenova.it",
         href: "https://catalogo.museidigenova.it/",
       },
-    },
-    {
-      title: "Cassero Documentation Center",
-      techStack: [
-        "Nuxt",
-        "MongoDB",
-        "TailwindCSS",
-        "JavaScript",
-        "WP Headless",
-      ],
-      description:
-        "A website to display the archive and documents held by the Cassero LGBT association based in Bologna",
-      link: {
-        label: "centrodocumentazionecassero.it",
-        href: "https://centrodocumentazionecassero.it/",
-      },
-    },
+    }
   ],
 } as const;
