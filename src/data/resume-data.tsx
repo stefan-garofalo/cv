@@ -66,7 +66,7 @@ export const RESUME_DATA = {
     {
       title: "Archivio Collettivo Memoria LGTBQ+",
       techStack:["Nuxt", "TailwindCSS", "JavaScript", "WP Headless"],
-      description: "The multipart form page of the website composed of 7 steps, each with its own required data and validation, all correctly shared and preserved upon internal back and forward navigation. The form enables users to enrich the website's LGTBQ archive with their stories and precious memories",
+      description: "The 7-step multipart form page featuring custom validation and shared data upon navigation per each step. The form enables users to enrich the website's LGTBQ archive with their stories and precious memories",
       link: {
         label: "archiviocollettivomemorialgbt.it",
         href: "https://archiviocollettivomemorialgbt.it/contribuisci",
