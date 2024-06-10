@@ -64,6 +64,15 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Archivio Collettivo Memoria LGTBQ+",
+      techStack:["Nuxt", "TailwindCSS", "JavaScript", "WP Headless"],
+      description: "The multipart form page of the website composed of 7 steps, each with its own required data and validation, all correctly shared and preserved upon internal back and forward navigation. The form enables users to enrich the website's LGTBQ archive with their stories and precious memories",
+      link: {
+        label: "archiviocollettivomemorialgbt.it",
+        href: "https://archiviocollettivomemorialgbt.it/contribuisci",
+      },
+    },
+    {
       title: "Archivio Gianni Minà",
       techStack: ["Next.js", "TailwindCSS", "JavaScript", "WP Headless"],
       description:
