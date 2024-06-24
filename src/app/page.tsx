@@ -148,6 +148,10 @@ export default function Page() {
           //   url: RESUME_DATA.personalWebsiteUrl,
           //   title: "Personal Website",
           // },
+          {
+            url: '/cv.pdf',
+            title: 'CV',
+          },
           ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
