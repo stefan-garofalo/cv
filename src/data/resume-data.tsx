@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Crafted numerous full-stack applications delivering high-quality code and showing self-reliance. Took care of maintaining existing products, fixing bugs, implementing new features and refactoring old codebases. Handled significant responsibility for most of the development of many projects.",
+        "Crafted numerous web applications and delivered high quality code. Maintained SAAS products, shipped new features and refactored old codebases. Handled significant responsibility for the whole development of many projects.",
     },
   ],
   skills: [
