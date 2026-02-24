@@ -3,32 +3,32 @@
 import { SunIcon, MoonIcon } from "lucide-react";
 import { useEffect, useState } from "react";
 
+type Theme = "dark" | "light";
+
+const getPreferredTheme = (): Theme => {
+  if (typeof window === "undefined") return "dark";
+
+  if (
+    localStorage.theme === "dark" ||
+    (!("theme" in localStorage) &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    return "dark";
+  }
+
+  return "light";
+};
+
 export const DarkMode = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState<Theme>(getPreferredTheme);
+
   useEffect(() => {
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
-    } else {
-      setTheme("light");
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
+    localStorage.theme = theme;
+    document.documentElement.classList.toggle("dark", theme === "dark");
+  }, [theme]);
 
   function toggleTheme() {
-    if (localStorage.theme === "light") {
-      localStorage.theme = "dark";
-      document.documentElement.classList.add("dark");
-      setTheme("dark");
-    } else {
-      localStorage.theme = "light";
-      document.documentElement.classList.remove("dark");
-      setTheme("light");
-    }
+    setTheme((currentTheme) => (currentTheme === "light" ? "dark" : "light"));
   }
 
   return (
